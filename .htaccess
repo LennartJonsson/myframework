@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  RewriteBase /~lejo13/phpmvc/kmom10/myframework
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+
+  RewriteRule (.*) index.php/$1 [NC,L]
+</IfModule>
+
