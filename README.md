@@ -66,7 +66,10 @@ Used by: `themes/grid/style.less.css`
 History
 -------
 
-v0.01 (2013 july)
+v0.02 (2013-07-07)
+* The .htaccess file now initally contains "RewriteBase /" as it should.
+
+v0.01 (2013-07-02)
 * This is the first release of MyFrameWork in a course called phpmvc.
 
 
